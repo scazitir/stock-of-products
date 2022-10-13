@@ -15,10 +15,8 @@ public class Program {
         String name = scan.nextLine();
         System.out.print("Price: ");
         double price = scan.nextDouble();
-        System.out.print("Quantity in stock: ");
-        int quantity = scan.nextInt();
 
-        Product product = new Product(name, price, quantity);
+        Product product = new Product(name, price);
 
 
         System.out.println();
